@@ -1,0 +1,23 @@
+html{
+    background-image: url(./img/lobo.jpg);
+   
+
+}
+
+
+h1#text{
+    color: aqua;
+    position: relative;
+    left: 46%;
+
+}
+
+.main{
+    position: relative;
+    left: 45%;
+    
+}
+
+button#um{
+    cursor: pointer;
+}
