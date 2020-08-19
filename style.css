@@ -4,11 +4,11 @@ html{
 
 }
 
-
+/* 
 h1#text{
     color: aqua;
     position: relative;
-    left: 46%;
+    left: 45%;
 
 }
 
@@ -21,3 +21,19 @@ h1#text{
 button#um{
     cursor: pointer;
 }
+
+.calculadora{
+    
+    position: relative;
+    left: 50%;
+    size: none; 
+    
+}
+
+.primeira{
+    
+    border: red;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+} */
