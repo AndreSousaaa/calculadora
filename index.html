@@ -9,12 +9,20 @@
 <body>
     <h1 id="text">CALCULADORA</h1>
 
-    <form action="" name="calc">
-        
-        <div id="calculadora">
-            <input type="text" id="visor" name="visor" >
+    <form action="" name="calc" class="formula">
+        <!-- <div class="calculadora">
+            <input type="text" id="visor_um" >
         </div>
-        <div>
+        <div class="calculadora">
+            <input type="text" id="visor">
+            
+        </div> -->
+
+        <textarea name="" id="visor" cols="30" rows="10"></textarea>
+        <textarea name="" id="visor_um" cols="30" rows="10"></textarea>
+           
+    
+        <div class="primeira">
             
             <input type="button" value="7" onclick="botao(value)">
             <input type="button" value="8" onclick="botao(value)">
@@ -23,26 +31,31 @@
             
         </div>
 
-        <div>
+        <div class="primeira">
             <input type="button" value="4" onclick="botao(value)">
             <input type="button" value="5" onclick="botao(value)">
             <input type="button" value="6" onclick="botao(value)">
             <input type="button" value="*" onclick="botao(value)">
         </div>
 
-        <div>
+        <div class="primeira">
             <input type="button" value="1" onclick="botao(value)">
             <input type="button" value="2" onclick="botao(value)">
             <input type="button" value="3" onclick="botao(value)">
             <input type="button" value="-" onclick="botao(value)">
+            <input type="button" value="." onclick="botao(value)">
+            
+            
+
             
         </div>
         
-        <div>
+        <div class="primeira">
             <input type="button" value="0" onclick="botao(value)">
             <input type="button" value="c" onclick="resetar()">
             <input type="button" value="+" onclick="botao(value)">
-            <input type="button" value="=" onclick="calcula()"> 
+            <input type="button" value="=" onclick="calcula()">
+            <input type="button" value="ce" onclick="reseteUm()"> 
         </div>
     </form>
 
